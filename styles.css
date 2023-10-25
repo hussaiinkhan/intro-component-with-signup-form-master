@@ -1,0 +1,106 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url('/images/bg-intro-desktop.png');
+    background-color: rgb(218, 130, 130);
+    background-size: 100% auto; /* Use 'cover' to make the background cover the entire container */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat;
+    margin: 0; /* Remove default margin */
+}
+
+.container {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    padding: 110px;
+}
+
+
+h1{
+    width:400px;
+    font-size:50px;
+    margin-bottom: 30px;
+}
+.child{
+    margin-right: 10px;
+    color: white;
+   
+}
+
+#see{
+    font-size: small;
+}
+
+.trail-msg{
+    background-color:rgb(67, 67, 167);
+    color: white;
+    font-size: smaller;
+    text-align: center;
+    width:457px;
+    padding-top: 18px;
+    padding-bottom: 5px;
+    border-radius: .5rem;
+   
+}
+#fname,#lname,#email,#password{
+    width: 400px;
+    padding:10px;
+    font-size: small;
+    border-radius: .3rem;
+    margin:8px;
+}
+
+form{
+    background-color: white;
+    margin-top: 13px;
+    padding: 20px;
+    border-radius: 0.7rem;
+}
+
+#submit{
+    color: white;
+    text-align: center;
+    background-color: rgb(86, 167, 86);
+    width: 400px;
+    padding: 10px;
+    margin: 8px;
+} 
+#click-msg{
+    margin-top: 13px;
+    font-size: smaller;
+    color: rgb(159, 159, 159);
+}
+#red-text{
+    color: rgb(136, 40, 40);
+    font-weight: bold;
+}
+
+footer{
+    color:white;
+}
+
+
+/*mobile view*/
+@media screen and (max-width:767px){  
+    body,html{
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        background-image: url('/images/bg-intro-mobile.png');
+        background-color: rgb(218, 130, 130);
+        background-size: 100% auto; /* Use 'cover' to make the background cover the entire container */
+        background-position: center; /* Center the background image */
+        background-repeat: no-repeat;
+        margin: 0; /* Remove default margin */
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+}
