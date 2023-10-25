@@ -85,7 +85,7 @@ footer{
 }
 
 
-/*mobile view*/
+/*/*mobile view
 @media screen and (max-width:767px){  
     body,html{
         margin: 0;
@@ -95,12 +95,12 @@ footer{
         background-image: url('/images/bg-intro-mobile.png');
         background-color: rgb(218, 130, 130);
         background-size: 100% auto; /* Use 'cover' to make the background cover the entire container */
-        background-position: center; /* Center the background image */
-        background-repeat: no-repeat;
+        /*background-position: center; /* Center the background image */
+        /*background-repeat: no-repeat;
         margin: 0; /* Remove default margin */
-    }
+    }/*
     .container{
         display: flex;
         flex-direction: column;
     }
-}
+}*/
