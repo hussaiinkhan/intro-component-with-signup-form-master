@@ -3,7 +3,7 @@ body, html {
     padding: 0;
     height: 100%;
     width: 100%;
-    background-image: url('bg-intro-desktop.png');
+    background-image: url('/images/bg-intro-desktop.png');
     background-color: rgb(218, 130, 130);
     background-size: 100% auto; /* Use 'cover' to make the background cover the entire container */
     background-position: center; /* Center the background image */
@@ -95,12 +95,40 @@ footer{
         background-image: url('/images/bg-intro-mobile.png');
         background-color: rgb(218, 130, 130);
         background-size: 100% auto; /* Use 'cover' to make the background cover the entire container */
-       background-position: center; /* Center the background image */
+        background-position: center; /* Center the background image */
         background-repeat: no-repeat;
         margin: 0; /* Remove default margin */
+        justify-content: center;
+        align-items: center;
     }
     .container{
         display: flex;
         flex-direction: column;
     }
+    h1{
+        margin-left: 40px;
+        font-size: 30px;
+        width:220px;
+        
+    }
+    #see{
+        margin-left: 40px;
+        width:290px;
+    }
+    .free{
+        font-size: 10px;
+    }
+    .trail-msg{
+        width:300px;
+    }
+    form{
+        width: 300px;
+    }
+    #fname,#lname,#email,#password{
+        width: 250px;
+    }
+    #submit{
+        width: 250px;
+    }
+
 }
